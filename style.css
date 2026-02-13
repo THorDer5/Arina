@@ -93,6 +93,7 @@ body{
     background-color: white;
     background: url(OIP\ \(5\).jpg);
     background-size: cover;
+     position: relative;
     background-repeat: no-repeat;
     z-index: 10000; 
 }
@@ -116,9 +117,9 @@ body{
     font-weight: bold;
     color: #ac3771;          
     cursor: pointer;
+       position: absolute;
     transition: transform 0.2s, color 0.2s;
-    width: 20px;
-    height: 20px;
+  
 }
 
 .modal_h1{
